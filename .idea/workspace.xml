@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbf56fbc-eec4-45be-af35-6a79ac6f9de9" name="Default Changelist" comment="" />
+    <list default="true" id="fc9bb5ad-ad1f-4213-bd15-777b2fb42b93" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,67 +19,105 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../go1.16" />
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="ProjectId" id="1p3lMPEs89xXBzFDlJo07ry6jRO" />
+  <component name="ProjectId" id="21BxNqrn8NG7uDYkIRmiFrTyQLy" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.libraries.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="js.phonegap.settings.workdir" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="cbf56fbc-eec4-45be-af35-6a79ac6f9de9" name="Default Changelist" comment="" />
-      <created>1614419605955</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1614419605955</updated>
-    </task>
-    <servers />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="3646" y="1019" width="437" height="141" key="#GOROOT" timestamp="1614419633217">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="3646" y="1019" width="437" height="141" key="#GOROOT/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614419633217" />
-    <state x="3660" y="923" width="400" height="334" key="#Go_Modules" timestamp="1614419638990">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="3660" y="923" width="400" height="334" key="#Go_Modules/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614419638990" />
-    <state x="4480" y="888" width="655" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614439924196">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="4480" y="888" width="655" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614439924196" />
-    <state x="3644" y="848" key="FileChooserDialogImpl" timestamp="1614419625358">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="3644" y="848" key="FileChooserDialogImpl/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614419625358" />
-    <state x="3339" y="721" width="1052" height="737" key="SettingsEditor" timestamp="1614419656213">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="3339" y="721" width="1052" height="737" key="SettingsEditor/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614419656213" />
-    <state x="3528" y="518" width="672" height="678" key="search.everywhere.popup" timestamp="1614440212775">
-      <screen x="1920" y="0" width="3840" height="2160" />
-    </state>
-    <state x="3528" y="518" width="672" height="678" key="search.everywhere.popup/1920.0.3840.2160/0.50.1920.1150/5760.0.2560.1440@1920.0.3840.2160" timestamp="1614440212775" />
   </component>
 </project>
