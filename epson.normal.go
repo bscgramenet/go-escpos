@@ -1,4 +1,5 @@
 //go:build !tinygo
+// +build !tinygo
 
 // This file contains all code that is not compatible with TinyGo
 

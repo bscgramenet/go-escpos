@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"math"
 	"os"
 )
 
@@ -172,6 +173,48 @@ func (p *Printer) Barcode(barcode string, format BarcodeType) error {
 	}
 
 	return p.PrintLn(fmt.Sprintf("%s", barcode))
+}
+
+// Barcode will print a barcode of a specified type as well as the text value
+func (p *Printer) QR(code string) error {
+
+	// set width/height to default
+	var gs byte = 0x1d
+	var m byte = 50
+	var size uint8 = 14
+	var ec uint8 = 50
+
+	err := p.write(string([]byte{gs, '(', 'k', 4, 0, 49, 65, m, 0}))
+	if err != nil {
+		return err
+	}
+
+	err = p.write(string([]byte{gs, '(', 'k', 3, 0, 49, 67, size}))
+	if err != nil {
+		return err
+	}
+
+	err = p.write(string([]byte{gs, '(', 'k', 3, 0, 49, 69, ec}))
+	if err != nil {
+		return err
+	}
+
+	var codeLength = len(code) + 3
+	var pL, pH byte
+	pH = byte(int(math.Floor(float64(codeLength) / 256)))
+	pL = byte(codeLength - 256*int(pH))
+
+	err = p.write(string(append([]byte{gs, '(', 'k', pL, pH, 49, 80, 48}, []byte(code)...)))
+	if err != nil {
+		return err
+	}
+
+	err = p.write(string([]byte{gs, '(', 'k', 3, 0, 49, 81, 48}))
+	if err != nil {
+		return err
+	}
+
+	return err
 }
 
 func (p *Printer) GetErrorStatus() (ErrorStatus, error) {

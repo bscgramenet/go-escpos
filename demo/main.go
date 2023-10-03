@@ -25,7 +25,7 @@ func main() {
 	p.Size(1, 1)
 
 	p.Font(escpos.FontB)
-	p.PrintLn("This is a test of MECT go-escpos")
+	p.PrintLn("This is a test of MECT go-escpfos")
 	p.Font(escpos.FontA)
 
 	p.Align(escpos.AlignRight)
@@ -43,6 +43,9 @@ func main() {
 	p.Align(escpos.AlignCenter)
 	p.Barcode("MECT", escpos.BarcodeTypeCODE39)
 	p.Align(escpos.AlignLeft)
+
+	p.Align(escpos.AlignCenter)
+	p.QR("HACK THE PLANET!")
 
 	p.Feed(2)
 	p.Cut()
