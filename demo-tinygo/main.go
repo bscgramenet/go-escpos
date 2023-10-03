@@ -4,7 +4,7 @@ import (
 	"machine"
 	"time"
 
-	"github.com/mect/go-escpos"
+	"github.com/conejoninja/go-escpos"
 )
 
 // these are the default pins for the Arduino Nano33 IoT.
