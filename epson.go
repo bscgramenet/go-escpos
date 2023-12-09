@@ -181,7 +181,7 @@ func (p *Printer) QR(code string) error {
 	// set width/height to default
 	var gs byte = 0x1d
 	var m byte = 50
-	var size uint8 = 10
+	var size uint8 = 8
 	var ec uint8 = 50
 
 	err := p.write(string([]byte{gs, '(', 'k', 4, 0, 49, 65, m, 0}))
