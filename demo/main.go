@@ -45,7 +45,7 @@ func main() {
 	p.Align(escpos.AlignLeft)
 
 	p.Align(escpos.AlignCenter)
-	p.QR("HACK THE PLANET!")
+	p.QR("HACK THE PLANET!", 10)
 
 	p.Feed(2)
 	p.Cut()

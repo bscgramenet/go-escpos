@@ -176,12 +176,11 @@ func (p *Printer) Barcode(barcode string, format BarcodeType) error {
 }
 
 // Barcode will print a barcode of a specified type as well as the text value
-func (p *Printer) QR(code string) error {
+func (p *Printer) QR(code string, size uint8) error {
 
 	// set width/height to default
 	var gs byte = 0x1d
 	var m byte = 50
-	var size uint8 = 8
 	var ec uint8 = 50
 
 	err := p.write(string([]byte{gs, '(', 'k', 4, 0, 49, 65, m, 0}))
