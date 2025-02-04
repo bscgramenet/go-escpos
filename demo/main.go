@@ -28,6 +28,7 @@ func main() {
 	p.PrintLn("This is a test of MECT go-escpfos")
 
 	cmdOpenDrawer := []byte{0x1B, 0x70, 0x00, 0x19, 0xFA}
+	p.Write(cmdOpenDrawer)
 
 	p.Font(escpos.FontA)
 
