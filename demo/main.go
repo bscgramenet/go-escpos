@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/conejoninja/go-escpos"
+	"github.com/bscgramenet/go-escpos"
 )
 
 func main() {
