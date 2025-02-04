@@ -17,7 +17,7 @@ func NewWindowsPrinterByName(printerName string) (*Printer, error) {
 	}
 	wp.ptr = p
 	wp.ptr.StartRawDocument("ticket.txt")
-
+	wp.ptr.StartPage()
 	return &Printer{
 		s: wp,
 		f: nil,
@@ -50,6 +50,7 @@ func (wprinter WindowsPrinter) Read(p []byte) (n int, err error) {
 }
 
 func (wprinter WindowsPrinter) Close() error {
+	wprinter.ptr.EndPage()
 	wprinter.ptr.EndDocument()
 	return wprinter.ptr.Close()
 }

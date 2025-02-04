@@ -7,12 +7,12 @@ import (
 )
 
 func main() {
-	p, err := escpos.NewUSBPrinterByPath("") // empry string will do a self discovery
-	if err != nil {
-		fmt.Print(err)
-		return
-	}
-
+	// p, err := escpos.NewUSBPrinterByPath("") // empry string will do a self discovery
+	// if err != nil {
+	// 	fmt.Print(err)
+	// 	return
+	// }
+	p, err := escpos.NewWindowsPrinterByName(`\\caja1-pc\TICKET`)
 	err = p.Init()
 	if err != nil {
 		fmt.Print(err)
