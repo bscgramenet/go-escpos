@@ -34,7 +34,7 @@ func NewWindowsPrinterByPath(printerPath string) (*Printer, error) {
 	}
 	wp.ptr = p
 	wp.ptr.StartRawDocument("ticket.txt")
-
+	wp.ptr.StartPage()
 	return &Printer{
 		s: wp,
 		f: nil,

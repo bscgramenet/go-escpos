@@ -58,6 +58,10 @@ func (p *Printer) Cut() error {
 func (p *Printer) Feed(n int) error {
 	return p.write(fmt.Sprintf("\x1Bd%c", n))
 }
+func (p *Printer) Write(data []byte) error {
+	_, err := p.s.Write(data)
+	return err
+}
 
 // Print prints a string
 // the data is re-encoded from Go's UTF-8 to ISO8859-15

@@ -26,6 +26,9 @@ func main() {
 
 	p.Font(escpos.FontB)
 	p.PrintLn("This is a test of MECT go-escpfos")
+
+	cmdOpenDrawer := []byte{0x1B, 0x70, 0x00, 0x19, 0xFA}
+
 	p.Font(escpos.FontA)
 
 	p.Align(escpos.AlignRight)
@@ -49,7 +52,9 @@ func main() {
 
 	p.Feed(2)
 	p.Cut()
+
 	p.End()
+	p.Close()
 	// do the next piece of work
 
 }

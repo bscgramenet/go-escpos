@@ -1,4 +1,4 @@
-module github.com/bscgramenet/go-escpos
+module github.com/bscgramenet/go-escpos 
 
 go 1.17
 
