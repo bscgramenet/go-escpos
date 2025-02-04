@@ -1,0 +1,8 @@
+github.com/alexbrainman/printer v0.0.0-20200912035444-f40f26f0bdeb h1:OzF7h5OJLiB2QvpxfFdUFdSedYYsEKAXnE8BwsWQPmY=
+github.com/alexbrainman/printer v0.0.0-20200912035444-f40f26f0bdeb/go.mod h1:aeB9oSJ1VNJXxBkCz6Krw3aW8lPx6rkWnW/hXcoujR4=
+github.com/bjarneh/latinx v0.0.0-20120329061922-4dfe9ba2a293 h1:kQGfMtLkjk7aSGf4REldBRcip+25SRGmOWHHjGaZZXM=
+github.com/bjarneh/latinx v0.0.0-20120329061922-4dfe9ba2a293/go.mod h1:HdstVrPoCN+CT+wHjeU6juUog6IM+EShcDoARBbc7cU=
+github.com/bscgramenet/go-escpos v0.0.0-20250204172153-5c6c4ebf9a09 h1:IDf7TssnGe16c7xL9XuY+H1qTnCx30VYWwau8QmR8aU=
+github.com/bscgramenet/go-escpos v0.0.0-20250204172153-5c6c4ebf9a09/go.mod h1:KZa7EnxgOh+3MzDC2LNiFI9372jDLiNKf9Op32h/HGQ=
+golang.org/x/sys v0.0.0-20200909081042-eff7692f9009 h1:W0lCpv29Hv0UaM1LXb9QlBHLNP8UFfcKjblhVCWftOM=
+golang.org/x/sys v0.0.0-20200909081042-eff7692f9009/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
